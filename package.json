@@ -1,0 +1,10 @@
+{
+  "name": "terraform-kubectl-alpine",
+  "version": "1.0.0",
+  "description": "Docker with kubectl and gcloud",
+  "author": "Sourav Halder",
+  "scripts": {
+    "dev": "docker build .",
+    "postversion": "git push origin && git push origin --tags"
+  }
+}
